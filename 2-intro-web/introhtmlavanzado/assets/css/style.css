@@ -1,0 +1,35 @@
+ul{
+    list-style-type: square;
+    
+}
+/* ol{ */
+
+
+/* list-style: upper-roman;
+}
+.sub{
+    border: 3px dotted red
+} */
+
+h1{
+    background-color: blueviolet;
+}
+div{ display:inline-block;
+    background-color: aqua;
+    width: 200px;
+  
+}
+a{  display:inline-block;
+    background-color: aquamarine;
+width: 200px;
+height: 400px;
+border: 1px solid red;
+
+}
+span{
+    background-color:  blueviolet;
+    font-size: large;
+    font-family: cursive;
+    font-weight: 700;
+    border: 1px dashed;
+}

@@ -1,0 +1,31 @@
+*{
+    font-size: 1 rem;
+}
+h1{
+    background-color: rgba(12, 45, 123, 0.651);
+    width: auto;
+    height: 100px ;
+}
+h2{
+    display: auto;
+    background-color: blue;
+    width:auto ;
+    height: 30px;
+
+}
+h3{
+        display: auto;
+        background-color: rgba(106, 0, 255, 0.724);
+        width:auto ;
+        height: 300px;
+    
+}
+
+footer{
+    background-color: blueviolet;
+    width: auto;
+    height: 150px;
+}
+.cuadro{
+
+}
