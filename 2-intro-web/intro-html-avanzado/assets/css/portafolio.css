@@ -1,0 +1,21 @@
+/* agreagamos la fuente que vamos a utlizar en la página */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url("../img/fondopantalla.jpg");
+    background-size: cover;
+    background-position: center center;
+    back
+
+    height: 100vh;
+
+
+}
