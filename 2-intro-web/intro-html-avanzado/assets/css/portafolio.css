@@ -199,6 +199,7 @@ justify-content: center;
 }
 #servicios .titulo-seccion {
 
+    text-align: center;
     font-size: 22px;
     text-transform: uppercase;
     color: black;
@@ -208,9 +209,9 @@ justify-content: center;
 }
 #servicios .fila {
     display: flex;
-    justify-content:space-evenly;
-    max-width: 1100px;
-    padding: 1px;
+    justify-content:space-between;
+    max-width: 1150px;
+    
     margin: 30px auto;
 }
 #servicios .fila .servicio{
@@ -224,11 +225,7 @@ justify-content: center;
 #servicios .fila .servicio:hover{
     box-shadow: 5px 5px 10px rgba(142, 44, 228, 0.317), -5px -5px 10px rgba(116, 4, 208, 0.299);
 }
-#servicios .fila .servicio h4{
-    font-size: 22px;
-    margin-bottom: 25px;
 
-}
 #servicios .fila .servicio .icono{
     display: inline-block;
     width: 60px;
@@ -236,6 +233,11 @@ justify-content: center;
     border-radius: 50%;
     background-color: rgba(98, 236, 236, 0.39);
     padding: 20px;
+    margin-bottom: 25px;
+
+}
+#servicios .fila .servicio h4{
+    font-size: 22px;
     margin-bottom: 25px;
 
 }
@@ -248,9 +250,14 @@ justify-content: center;
 #servicios .fila .servicio ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
+    justify-content: space-around;
+    margin-bottom: 10px;}
+/* }
+.cuadro-padre{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+}*/
 #servicios .fila .servicio p{
     font-size: 14px;
     line-height: 22px;

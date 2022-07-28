@@ -1,0 +1,72 @@
+.cuadro-padre{
+    display: flex;
+    flex-direction: row;
+    background-color: #c11699;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+body{
+    background-color:rgb(123, 213, 243) ;
+}
+.cuadro {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+
+/* 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 25px;*/
+
+   padding: 50px 40px 30px 20px; 
+   margin: 20px 40px;
+
+    
+    border:10px solid yellow;
+    border-radius: 50px 20px 30px 40px; 
+ 
+}
+.el-1{
+    background-color: beige;
+   /*  position: fixed;
+    bottom: 0; */
+}
+.el-2{
+    background-color: #23d561;
+    /* position: sticky;
+    top: 0px;
+    right:0px; */
+}
+.el-3{
+    background-color: #3e24b1;
+    /* position: relative;
+    bottom: 0px;
+    left: 100px; */
+}
+.el-4{
+    background-color: #c11699;
+    /* position: static; */
+}
+.el-5{
+    background-color: rgb(219, 37, 89);
+    /* position: static; */
+}
+/* intro a boostrap */
+.contenedor{
+    height: 200px;
+    background-color: #3e24b1;
+    max-width: 900px;
+    margin: 10px auto;
+}
+.fila{
+ display:flex;
+
+
+}
+.columna{
+    flex: grow 1; 
+}
