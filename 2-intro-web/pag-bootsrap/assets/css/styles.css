@@ -1,0 +1,23 @@
+.img-carousel
+{
+    height: calc(50vh - 76px);
+    object-fit: cover;
+    
+}
+.img-carta{
+    height: 300px;
+    object-fit: cover;
+}
+
+/* breakpoint
+@media(max-width: 992px){
+
+    body {
+        background-color: blue;
+    }
+}
+ */
+ .caja{
+    position: relative;
+    top: -60px;
+ }
