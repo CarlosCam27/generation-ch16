@@ -1,0 +1,65 @@
+
+var nipAlmacenado = 2468;
+var nipCapturado = 0;
+
+var opcion = 0;
+var saldo = 10000;
+
+
+while(nipAlmacenado!=nipCapturado){
+     nipCapturado = parseInt(prompt("Ingrese NIP"));
+     contador = contador + 1;
+    if (contador ==3){
+       break;
+ }
+ if(contador == 2 && nipAlmacenado!=nipCapturado){
+  alert("Cuidado solo te resta una oportunidad");
+ }    
+}
+if (nipCapturado==nipAlmacenado){
+   
+ while(opcion<1 || opcion>4){
+  document.write("Bienvenido al Sistema" + "<br>"
+  + "Opciones" + "<br>" + "1. Consulta de Saldo"
+  + "<br>" + "2. Retiro" + "<br>" + "3. Deposito"
+  + "<br>" + "4. Movimientos" + "<br>");
+  
+  opcion = parseInt(prompt("Ingrese la opcion: "));
+ }                
+ if(opcion == 1){
+  document.write("Tu saldo actual es: " + saldo);
+ }
+ if(opcion == 2){    
+  //suponga que el cajero solo tiene billetes de 500, 200,100 y 50 pesos
+  //el objetico es entregar la menor catidad de billetes posible
+  while (retiro>saldo || retiro==0 || (retiro%50) != 0 ) {
+   retiro=parseInt(prompt("Cuanto vas a retirar"));
+     }
+  saldo= saldo-retiro;
+  deA500 = parseInt((retiro / b500));
+  retiro = (retiro - (deA500 * b500));
+  deA200 = parseInt((retiro / b200));
+  retiro = (retiro - (deA200 * b200));
+  deA100 = parseInt((retiro / b100));
+  retiro = (retiro - (deA100 * b100));
+  deA50 = parseInt((retiro / b50));
+  document.write(deA500 + " de 500" + '<br>');
+  document.write(deA200 + " de 200" + '<br>');
+  document.write(deA100 + " de 100" + '<br>');
+  document.write(deA50 + " de 50" + '<br>');        
+  document.write("Tu saldo actual es: " + saldo);
+    }
+ if(opcion == 3){
+  deposito = parseInt(prompt("Cuanto depositas: "));
+  saldo = saldo + deposito;
+  document.write("Tu saldo actual es: " + saldo);
+ }
+ if(opcion == 4){
+  alert("Movimientos");
+ }
+}
+else{
+    alert("Te lo dije....tarjeta retenida");
+}
+
+

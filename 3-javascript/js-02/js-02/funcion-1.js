@@ -20,7 +20,7 @@ res = miResta (10,4) */
 } */
 
 //ejercicio
-
+/* 
 function nombreApellidos(nombre,apaterno,amaterno){
     let nombre = "caxrlos cesar";
     let resultado = (nombre);
@@ -33,4 +33,4 @@ function nombreApellidos(nombre,apaterno,amaterno){
 }
 nombreApellidos resultado(Carlos);
 nombreApellidos(Rosario);
-nombreApellidos(Camilo);
+nombreApellidos(Camilo); */

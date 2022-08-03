@@ -53,6 +53,8 @@ let arr2= new Array("B",2);
 // obejtos
 //clave y valor
 
+
+//abtraccion que defiminos a traves de su caracteristicas
 const persona={ nombre: `Carlos`,
             edad:27,
             hobbies: [ "Leer","Ver sherk 1 y 2","Comer"],
