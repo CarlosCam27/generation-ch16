@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59c7259f-02ec-4daf-a67c-8829a91b363b" name="Changes" comment="" />
+    <list default="true" id="59c7259f-02ec-4daf-a67c-8829a91b363b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PooJava/EjemploSaludo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PooJava/Saludo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjemploSaludo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiSaludo/EjemploSaludo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Saludo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiSaludo/Saludo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,20 +45,83 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="EjemploSaludo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploSaludo" />
+  <component name="RunManager" selected="Application.EjecutaT">
+    <configuration name="EjecutaT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MetPrincipal.EjecutaT" />
       <module name="PooJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MetPrincipal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemplosResumen.Ejemplo" />
+      <module name="PooJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EjemplosResumen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Formato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiFecha.Formato" />
+      <module name="PooJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MiFecha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiEjemploJava.EjemploPersona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiEjemploJava.EjemploPersona" />
+      <module name="PooJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EjemplosResumen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiEjemploJava.Persona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiEjemploJava.Persona" />
+      <module name="PooJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EjemplosResumen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploSaludo" />
+        <item itemvalue="Application.EjecutaT" />
+        <item itemvalue="Application.Formato" />
+        <item itemvalue="Application.Ejemplo" />
+        <item itemvalue="Application.MiEjemploJava.EjemploPersona" />
+        <item itemvalue="Application.MiEjemploJava.Persona" />
       </list>
     </recent_temporary>
   </component>
@@ -65,5 +135,16 @@
       <updated>1661286580579</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

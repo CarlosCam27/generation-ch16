@@ -1,9 +1,13 @@
+package MiSaludo;
+
 public class Saludo {
-void saludar(){
+    String textoS = "Hola mundo Javappp";
+    int a = 3;
+    public void saludar(){
     System.out.println("Hola Java DOP");
 
 }
-String saludar0(){
+public String saludar0(){
     String textoS = "Hola mundo Java OOP";
     return textoS;
 }
