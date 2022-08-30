@@ -5,10 +5,11 @@ private float base;
 private float altura;
 
 
-    public triangulo() {
-    }
+   // public triangulo() {
+    //}
 
     public triangulo(float base, float altura) {
+        super ("triangulo");
         this.base = base;
         this.altura = altura;
     }

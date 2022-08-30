@@ -9,10 +9,9 @@ private float radio;
         return (float) (Math.PI*Math.pow(radio,2));
     }
 
-    public Circulo() {
-    }
 
     public Circulo(float radio) {
+        super ("circulo");
         this.radio = radio;
     }
 
