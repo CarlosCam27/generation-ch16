@@ -1,4 +1,8 @@
 package ccrc.herencia;
 
-public class Hijo {
+public class Hijo extends BasePadre {
+    public Hijo(){
+        super();
+    }
+
 }

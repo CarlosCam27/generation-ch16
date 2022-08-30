@@ -1,54 +1,28 @@
 package principal;
 
+import ccrc.herencia.BasePadre;
+import ccrc.herencia.Hija;
+import ccrc.herencia.Hijo;
+
 public class EjemploHerencia {
     public static void main (String[] args) {
 Hija h = new Hija();
-h.visualizarA();
+h.setA(16515);
 
 
-    public class BasePadre {
-        private int a;
-        private double b;
-        private String c;
-
-        public  BasePadre(){
+Hijo ho = new Hijo();
+ho.setA(1056);
+ho.visualizarABC();
 
 
-        }
+BasePadre objB= new BasePadre();
+objB.setA(2357);
 
-        public void visualizarA(){
-
-        }
-
-        public void visualizarABC(){
-
-        }
-
-        public int getA() {
-            return a;
-        }
-
-        public void setA(int a) {
-            this.a = a;
-        }
-
-        public double getB() {
-            return b;
-        }
-
-        public void setB(double b) {
-            this.b = b;
-        }
-
-        public String getC() {
-            return c;
-        }
-
-        public void setC(String c) {
-            this.c = c;
-        }
-    }
+Object miObj = new BasePadre();
+        System.out.println("atrinuto de clase base padre"+objB.getA());
+        System.out.println("atributo clase hijo"+ho.getA());
 
 
 
-}
+
+}}
